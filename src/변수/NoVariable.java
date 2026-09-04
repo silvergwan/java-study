@@ -1,3 +1,5 @@
+package 변수;
+
 public class NoVariable {
     public static void main(String[] args) {
         System.out.println(20);
