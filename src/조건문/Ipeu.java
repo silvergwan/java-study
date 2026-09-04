@@ -1,6 +1,6 @@
 package 조건문;
 
-public class ipeu {
+public class Ipeu {
     public static void main(String[] args) {
         int score = 85;
 
