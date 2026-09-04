@@ -1,4 +1,4 @@
-public class Main {
+public class NoVariable {
     public static void main(String[] args) {
         System.out.println(20);
         System.out.println(20 + 1);
