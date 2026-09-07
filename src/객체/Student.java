@@ -5,6 +5,8 @@ public class Student {
     private int score;
 
     Student(String name, int score) {
+        validateScore(score);
+
         this.name = name;
         this.score = score;
     }
@@ -13,20 +15,16 @@ public class Student {
         System.out.println("학생 이름 = " + name + ", 점수 = " + score);
     }
 
-    void changeScore(int newScore) {
-        if (newScore < 0 || newScore > 100) {
-            System.out.println("점수는 0점부터 100점까지만 가능합니다.");
-            return;
+    private void validateScore(int score){
+        if (score < 0 || score > 100) {
+            throw new IllegalArgumentException(
+                    "점수는 0점부터 100점까지만 가능합니다."
+            );
         }
-
-        score = newScore;
     }
 
-    boolean isPass() {
-        if (score >= 60) {
-            return true;
-        } else {
-            return false;
-        }
+    public void changeScore(int newScore) {
+        validateScore(newScore);
+        score = newScore;
     }
 }
