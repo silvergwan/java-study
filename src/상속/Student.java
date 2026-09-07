@@ -11,4 +11,10 @@ public class Student extends Person {
     public void printScore() {
         System.out.println("점수는 " + score + "점입니다.");
     }
+
+    @Override
+    public void introduce(){
+        super.introduce();
+        System.out.println("제 점수는 " + score + "점입니다.");
+    }
 }
