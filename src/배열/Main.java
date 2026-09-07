@@ -16,6 +16,6 @@ public class Main {
         for (int score : scores){
             sumScore1 += score;
         }
-        System.out.println(sumScore); //245
+        System.out.println(sumScore1); //245
     }
 }
