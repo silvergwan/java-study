@@ -1,6 +1,6 @@
 package 배열;
 
-public class Baeyeol {
+public class Main {
     public static void main(String[] args){
         int[] scores = {80, 95, 70};
         // 배열의 위치 번호인 인덱스는 0부터 시작, 따라서 값이 3개라면 인덱스는 0, 1, 2

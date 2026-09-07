@@ -1,7 +1,7 @@
 package 메서드;
 
 // 메서드는 함수와 유사한 개념, 자바에선 클래스 안에 정의하는 함수를 메서드라 함
-public class Mesodeu {
+public class Main {
     public static void main(String[] args){
         int[] scoresA = {80, 95, 70};
         int[] scoresB = {10, 20, 30};

@@ -1,6 +1,6 @@
 package 반복문;
 
-public class Po {
+public class Main {
     public static void main(String[] args) {
         // 안녕하세요 5번
         for (int i = 1; i <= 5; i++) {

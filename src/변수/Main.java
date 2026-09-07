@@ -1,6 +1,6 @@
 package 변수;
 
-public class Variable {
+public class Main {
     public static void main(String[] args) {
         String name = "최은관";
         int age = 19;
