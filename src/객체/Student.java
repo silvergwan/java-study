@@ -1,8 +1,8 @@
 package 객체;
 
 public class Student {
-    String name;
-    int score;
+    private String name;
+    private int score;
 
     Student(String name, int score) {
         this.name = name;
@@ -11,6 +11,15 @@ public class Student {
 
     void printInfo() {
         System.out.println("학생 이름 = " + name + ", 점수 = " + score);
+    }
+
+    void changeScore(int newScore) {
+        if (newScore < 0 || newScore > 100) {
+            System.out.println("점수는 0점부터 100점까지만 가능합니다.");
+            return;
+        }
+
+        score = newScore;
     }
 
     boolean isPass() {
