@@ -4,7 +4,15 @@ public class Student {
     String name;
     int score;
 
-    void printInfo(){
+    void printInfo() {
         System.out.println("학생 이름 = " + name + ", 점수 = " + score);
+    }
+
+    boolean isPass() {
+        if (score >= 60) {
+            return true;
+        }else{
+            return false;
+        }
     }
 }
