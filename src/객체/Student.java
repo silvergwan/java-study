@@ -4,7 +4,7 @@ public class Student {
     String name;
     int score;
 
-    Student(String name, int score){
+    Student(String name, int score) {
         this.name = name;
         this.score = score;
     }
@@ -16,7 +16,7 @@ public class Student {
     boolean isPass() {
         if (score >= 60) {
             return true;
-        }else{
+        } else {
             return false;
         }
     }

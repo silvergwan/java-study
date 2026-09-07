@@ -8,10 +8,8 @@ public class StudentMain {
         Student student2 = new Student("안유진", 95);
 
         student1.printInfo();
-        student1.isPass();
         System.out.println(student1.isPass());
         student2.printInfo();
-        student2.isPass();
         System.out.println(student2.isPass());
     }
 
